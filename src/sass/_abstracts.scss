@@ -1,0 +1,22 @@
+$globalgrey: #eee;
+$ppborder: rgba(0, 0, 0, 0.248);
+$space: 50%;
+$pagetitles: #660000;
+$bodytext: #000000;
+$portfolioheader: #076450;
+$imageborder: rgba(0, 0, 0, 0.556);
+$borderabout: #ffffff;
+$fontface: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$headerfont: 'Times New Roman', Times, serif;
+
+
+@mixin generalpadding{
+    padding: 10px;
+} 
+
+
+@mixin  leftside{
+    float:left;
+}
+
+

@@ -1,0 +1,35 @@
+//nesting navbar elements
+@use "abstracts";
+
+.navbar{
+
+    padding-top: 0.1rem;
+    padding-bottom: 0rem;
+    color: abstracts.$bodytext;
+
+    &-brand {
+        display: flex;
+        float: left !important;
+        align-items: center;
+
+        img {
+            padding: 1px 14px;
+          }
+
+      }
+
+}
+
+
+.container{
+    max-width: 96%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0; 
+  }
+  
+  .container1{
+    padding-top: 1%;
+  }
+  
