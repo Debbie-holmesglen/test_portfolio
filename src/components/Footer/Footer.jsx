@@ -6,7 +6,7 @@ const Footer = () => {
 
     <footer>
 
-    <div class="container1" class="color-nav">
+    <div class="container1" className="color-nav">
         <br />
         <div class="row">
             <div class="col-sm">
